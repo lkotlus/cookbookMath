@@ -31,6 +31,24 @@ p {
     -ms-user-select: none;
     user-select: none;
 }
+@media only screen and (max-width: 600px) {
+    #inputDiv {
+        width: 100vw;
+        /* font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #1d1d1d;
+        padding: 10px;
+        border-radius: 10px;
+        position: absolute;
+        z-index: 2;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; */
+    }  
+}
 
 #buttonDiv {
     cursor: pointer;
