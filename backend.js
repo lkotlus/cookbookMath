@@ -339,6 +339,9 @@ document.getElementById('buttonDiv').addEventListener('click', (e) => {
     }
     // If the user quits goofing off...
     else {
+        // Getting rid of any old plots
+        document.getElementById('plot').innerHTML = "";
+
         // Switch the points to all numerical values
         p1 = [Number(p1[0]), Number(p1[1]), Number(p1[2])];
         p2 = [Number(p2[0]), Number(p2[1]), Number(p2[2])];
