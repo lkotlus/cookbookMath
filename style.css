@@ -110,11 +110,13 @@
 
     #inputDiv {
         width: 90vw;
+        margin: auto;
         font-size: large;
         font-family: 'Courier New', Courier, monospace;
         background-color: #1d1d1d;
         padding: 10px;
         border-radius: 10px;
+        position: relative;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
