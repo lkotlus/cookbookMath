@@ -295,9 +295,9 @@ let graph = function(cp, p1, p2, p3) {
                 }
             },
             aspectratio: {
-                x: .5,
-                y: .5,
-                z: .5
+                x: .4,
+                y: .4,
+                z: .4
             }
         },
         font: {
