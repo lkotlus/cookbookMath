@@ -293,6 +293,11 @@ let graph = function(cp, p1, p2, p3) {
                 eye: {
                     x:1.25, y:1.25, z:0.1
                 }
+            },
+            aspectratio: {
+                x: .5,
+                y: .5,
+                z: .5
             }
         },
         font: {
