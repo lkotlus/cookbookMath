@@ -222,9 +222,9 @@ let graph = function(cp, p1, p2, p3) {
     // Sets up a single array with each coordinate
     let points = p1.concat(p2).concat(p3);
     // Gets the minimum value minus 5 (lower bound)
-    let lb = Math.floor(Math.min.apply(null, points) - 5);
+    let lb = Math.floor(Math.min.apply(null, points) - 30);
     // Gets the maximum value plus 5 (upper bound)
-    let ub = Math.floor(Math.max.apply(null, points) + 5);
+    let ub = Math.floor(Math.max.apply(null, points) + 30);
 
     // Creating a data variable
     let data;
