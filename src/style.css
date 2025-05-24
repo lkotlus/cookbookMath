@@ -1,0 +1,98 @@
+body {
+    display: block;
+    margin: 8px;
+    background-color: #2c2c2c;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 5px;
+    color: #bdbdbd;
+}
+
+#inputDiv {
+    width: 22vw;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1d1d1d;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#buttonDiv {
+    cursor: pointer;
+    color: #bdbdbd;
+    background-color: #1d1d1d;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#buttonDiv:hover {
+    background-color: #2c2c2c;
+}
+
+#plot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mathDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #bdbdbd;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.pointCord {
+    width: 22px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none !important;
+    border: none !important;
+    background-color: #1d1d1d;
+    color: #bdbdbd;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.pointCord:hover {
+    background-color: #2c2c2c;
+}
+
+.modebar{
+    display: none !important;
+}
+
+@media only screen and (max-width: 1000px) {
+    #inputDiv {
+        width: 90vw !important;
+        margin: auto !important;
+        position: relative !important;
+    }
+}

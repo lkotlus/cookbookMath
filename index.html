@@ -1,34 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cookbook Math</title>
-
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="fullWrapper">
-        <div id="inputDiv">
-            <div id="p1" class="pointDiv">
-                <p>Point 1: (<input class="pointCord" id="p1x" type="number" step="1" value="-1" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">, <input class="pointCord" id="p1y" type="number" step="1" value="2" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">, <input class="pointCord" id="p1z" type="number" step="1" value="3" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">)</p>
-            </div>
-        
-            <div id="p2" class="pointDiv">
-                <p>Point 2: (<input class="pointCord" id="p2x" type="number" step="1" value="3" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">, <input class="pointCord" id="p2y" type="number" step="1" value="1" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">, <input class="pointCord" id="p2z" type="number" step="1" value="4" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">)</p>
-            </div>
-        
-            <div id="p3" class="pointDiv">
-                <p>Point 3: (<input class="pointCord" id="p3x" type="number" step="1" value="2" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">, <input class="pointCord" id="p3y" type="number" step="1" value="1" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">, <input class="pointCord" id="p3z" type="number" step="1" value="2" maxlength="7" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">)</p>
-            </div>
-        
-            <div id="buttonDiv">Calculate</div>
-        </div>
-    
-        <div id="mathDiv"></div>
-    
-        <div id="plot"></div>
-    </div>
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="./backend.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
